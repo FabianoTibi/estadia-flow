@@ -1,0 +1,55 @@
+.mark {
+  flex: none;
+  display: block;
+}
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ho-logo-navy);
+}
+.vertical {
+  flex-direction: column;
+  gap: 12px;
+  text-align: center;
+}
+.onDark {
+  color: #fff;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+.word {
+  font-family: var(--ho-font-display);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1;
+  white-space: nowrap;
+}
+.vertical .word {
+  letter-spacing: -0.03em;
+}
+.flow {
+  color: var(--ho-logo-blue);
+  background: linear-gradient(90deg, var(--ho-logo-blue), var(--ho-logo-purple));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.flowDark {
+  color: var(--ho-logo-cyan);
+  background: linear-gradient(90deg, var(--ho-logo-cyan), #a9b8ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tagline {
+  font-family: var(--ho-font-body);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+}

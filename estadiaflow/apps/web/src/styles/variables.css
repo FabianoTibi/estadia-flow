@@ -1,0 +1,61 @@
+/* Design tokens do EstadiaFlow (fonte única de cores, tipografia e espaçamento). */
+:root {
+  /* Neutros */
+  --ho-ink: #0b1b4d;
+  --ho-ink-soft: #2a3655;
+  --ho-sub: #55607a;
+  --ho-line: #e1e6f0;
+  --ho-canvas: #f5f7fb;
+  --ho-surface: #ffffff;
+  --ho-muted: #eef1f7;
+
+  /* Ação principal: azul elétrico */
+  --ho-brand: #2563eb;
+  --ho-brand-strong: #1d4ed8;
+  --ho-brand-soft: #ebf1ff;
+  /* Destaque secundário (antes verde-água): família do ciano, escurecida para texto legível */
+  --ho-teal: #0b5c74;
+  --ho-teal-soft: #ddf6fd;
+  /* Inteligência e automação */
+  --ho-violet: #5b21b6;
+  --ho-violet-soft: #efe7fe;
+  --ho-amber: #b45309;
+  --ho-amber-soft: #fef4e2;
+  --ho-rose: #be123c;
+  --ho-rose-soft: #fdecef;
+  --ho-green: #047857;
+  --ho-green-soft: #e7f5ee;
+
+  /* Cores da marca (logo e menu lateral). */
+  --ho-sidebar: #0b1b4d;
+  --ho-sidebar-text: #c7d0ea;
+  --ho-logo-cyan: #19c8f5;
+  --ho-logo-blue: #2563eb;
+  --ho-logo-purple: #7c3aed;
+  --ho-logo-navy: #0b1b4d;
+  --ho-logo-gradient: linear-gradient(135deg, var(--ho-logo-cyan) 0%, var(--ho-logo-blue) 50%, var(--ho-logo-purple) 100%);
+  /* Degradê para fundos com texto ou ícone branco por cima (o ciano não dá contraste com branco). */
+  --ho-gradient-strong: linear-gradient(135deg, var(--ho-logo-navy) 0%, var(--ho-logo-blue) 60%, var(--ho-logo-purple) 100%);
+  --ho-logo-gradient-text: linear-gradient(90deg, var(--ho-logo-cyan), var(--ho-logo-blue) 55%, var(--ho-logo-purple));
+
+  --ho-font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --ho-font-display: 'Sora', 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --ho-font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --ho-radius-sm: 8px;
+  --ho-radius: 12px;
+  --ho-radius-lg: 16px;
+  --ho-shadow-sm: 0 1px 2px rgba(11, 27, 77, 0.05);
+  --ho-shadow: 0 10px 28px rgba(11, 27, 77, 0.10);
+
+  --ho-space-1: 4px;
+  --ho-space-2: 8px;
+  --ho-space-3: 12px;
+  --ho-space-4: 16px;
+  --ho-space-5: 20px;
+  --ho-space-6: 24px;
+  --ho-space-8: 32px;
+
+  --ho-sidebar-width: 248px;
+  --ho-topbar-height: 60px;
+}

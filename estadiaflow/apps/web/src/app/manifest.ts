@@ -1,0 +1,21 @@
+import type { MetadataRoute } from 'next';
+
+/** Manifesto do aplicativo web (instalação na tela inicial do celular). */
+export default function manifest(): MetadataRoute.Manifest {
+  return {
+    name: 'EstadiaFlow',
+    short_name: 'EstadiaFlow',
+    description: 'Gestão inteligente de hospedagens: reservas, limpeza, atendimento por WhatsApp e automações em um só lugar.',
+    lang: 'pt-BR',
+    start_url: '/',
+    display: 'standalone',
+    background_color: '#f5f7fb',
+    theme_color: '#2563eb',
+    icons: [
+      { src: '/icons/icon-192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },
+      { src: '/icons/icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'any' },
+      { src: '/icons/icon-maskable-192.png', sizes: '192x192', type: 'image/png', purpose: 'maskable' },
+      { src: '/icons/icon-maskable-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+    ],
+  };
+}
