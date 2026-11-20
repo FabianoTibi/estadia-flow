@@ -88,7 +88,7 @@ docker compose up -d mariadb redis
 pnpm test
 ```
 
-Os testes de integração recriam o banco `hostops_test` a cada execução, aplicando as migrations SQL do zero. O setup recusa rodar em um banco cujo nome não termine em `_test`.
+Os testes de integração recriam o banco `EstadiaFlow_test` a cada execução, aplicando as migrations SQL do zero. O setup recusa rodar em um banco cujo nome não termine em `_test`.
 
 ## Integrações externas
 
